@@ -71,3 +71,18 @@ nav a:focus {
 .current-page:hover {
   color: #707070;
 }
+
+@media screen and (max-width: 675px) {
+  .container-nav {
+    flex-direction: column;
+  }
+  header {
+    text-align: center;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    margin: 0.5em 0;
+  }
+}
