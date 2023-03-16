@@ -122,13 +122,6 @@ header {
   margin-bottom: 3em;
 }
 
-footer {
-  background: #143774;
-  color: white;
-  text-align: center;
-  padding: 3em 0;
-}
-
 @media screen and (min-width: 675px) {
   .container-flex {
     flex-direction: row;
@@ -229,28 +222,4 @@ nav a:focus {
   .article-info {
     order: -1;
   }
-}
-
-/* Widgets */
-
-.sidebar-widget {
-  border: 20px solid #efefef;
-  margin-bottom: 2em;
-  padding: 1em;
-}
-
-.widget-recent-post {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 1px solid #707070;
-  margin-bottom: 1em;
-}
-
-.widget-recent-post:last-child {
-  border: 0;
-  margin: 0;
-}
-
-.widget-image {
-  order: -1;
 }
