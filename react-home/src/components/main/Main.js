@@ -1,6 +1,7 @@
 import React from "react";
 import FeaturedArticle from "./FeaturedArticle";
 import Article from "./Article";
+import "./main.css";
 
 const Main = () => {
   const posts = [
